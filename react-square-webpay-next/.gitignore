@@ -2,6 +2,7 @@
 
 # dependencies
 /node_modules
+/react-square-webpay-next/node_modules
 /.pnp
 .pnp.js
 
