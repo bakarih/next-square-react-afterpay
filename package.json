@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@square/web-sdk": "^2.0.0",
+    "next-transpile-modules": "^9.0.0",
+    "react-square-web-payments-sdk": "^3.2.1",
+    "square": "^19.1.0"
+  }
+}
