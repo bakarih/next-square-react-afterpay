@@ -8,6 +8,7 @@ const { paymentsApi } = new Client({
   environment: 'sandbox',
 }) 
 
+console.info("New Client created", paymentsApi)
 export default async function handler(req, res) {
   if ( req.method === 'POST' ) {
     const { result } = await paymentsApi.createPayment({

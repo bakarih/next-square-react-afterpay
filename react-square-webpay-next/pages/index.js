@@ -12,7 +12,18 @@ const MyPaymentForm = () => (
      * request. The result will be a valid credit card or wallet token, or an error.
      */
      cardTokenizeResponseReceived={ async (token, buyer) => {
-      alert(JSON.stringify(token, null , 2));
+      const response = await fetch('/api/pay', {
+        method: "POST",
+        headers: {
+          'Content-type' : 'application/json'
+        },
+        body: JSON.stringify({
+          sourceId: token.token
+        })
+      })
+
+      
+      alert(JSON.stringify(await response.json(), null , 2));
     }}
     /**
      * This function enable the Strong Customer Authentication (SCA) flow
