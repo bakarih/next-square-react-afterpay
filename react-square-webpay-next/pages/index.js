@@ -6,7 +6,7 @@ const MyPaymentForm = () => (
      * Identifies the calling form with a verified application ID generated from
      * the Square Application Dashboard.
      */
-    applicationId="sandbox-sq0idb-EUptF0ceVgGoywxgupxKow"
+    applicationId="sandbox-XXXXXX-XXXXXXXXXXXXXXX"
     /**
      * Invoked when payment form receives the result of a tokenize generation
      * request. The result will be a valid credit card or wallet token, or an error.
@@ -21,38 +21,19 @@ const MyPaymentForm = () => (
           sourceId: token.token
         })
       })
-
-      
       alert(JSON.stringify(await response.json(), null , 2));
     }}
-    /**
-     * This function enable the Strong Customer Authentication (SCA) flow
-     *
-     * We strongly recommend use this function to verify the buyer and reduce
-     * the chance of fraudulent transactions.
-     */
-    
-    createVerificationDetails={() => ({
-      amount: '1.00',
-      /* collected from the buyer */
-      billingContact: {
-        addressLines: ['123 Muggle Street', 'Apartment 1'],
-        familyName: 'Mione',
-        givenName: 'Her',
-        countryCode: 'GB',
-        city: 'London',
-      },
-      currencyCode: 'GBP',
-      intent: 'CHARGE',
-    })}
     /**
      * Identifies the location of the merchant that is taking the payment.
      * Obtained from the Square Application Dashboard - Locations tab.
      */
-    locationId="LVZPFGEJRQQ0R"
+    locationId="XXXXXXXXXXXXXX"
   >
+  {/* Component for taking Credit Card payments */}
   <CreditCard />
+
   <p></p>
+  {/*Component for paying with Direct Debit (ACH) */}
   <Ach accountHolderName="John Don't" redirectURI="https://example.com/" transactionId="54321" />
   </PaymentForm>
 );
