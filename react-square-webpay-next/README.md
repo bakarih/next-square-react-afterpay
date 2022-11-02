@@ -29,6 +29,8 @@ To learn more about Next.js or Square APIs, take a look at the following resourc
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 - [Square APIs](https://developer.squareup.com/) - the home for Square APIs, SDKs, docs, and tutorials.
+- [React Square Web Payments wrapper](https://react-square-payments.weareseeed.com/docs) - docs for a community-created library of components that wraps
+- the Square Webpay SDK functionality
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
