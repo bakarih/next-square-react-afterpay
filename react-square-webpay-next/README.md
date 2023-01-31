@@ -1,4 +1,4 @@
-This is reference architecture for integrating the Square Web Payments SDK with React in a scalable and performant way. This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). Uses components from [`react-square-web-payments-sdk`](https://github.com/weareseeed/react-square-web-payments-sdk). 
+This is an app we can use for integrating the Square Web Payments SDK with React in a scalable and performant way. This will allow us to take multiple payment types from our client side application. This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). Uses components from [`react-square-web-payments-sdk`](https://github.com/weareseeed/react-square-web-payments-sdk). 
 
 Requires: 
 
