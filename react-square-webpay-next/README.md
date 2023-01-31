@@ -1,5 +1,12 @@
-This is reference architecture for integrating the Square Web Payments SDK with React in a scalable and performant way. This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). Uses components from [`react-square-web-payments-sdk`](https://github.com/weareseeed/react-square-web-payments-sdk). Requires a Square access token,
-a locationId and applicationId from your [Square Developer Account](https://squareup.com/signup/us?lang_code=en-us&country_code=us&return_to=https%3A%2F%2Fdeveloper.squareup.com%2Fapps%2Fsq0idp-tlAwlpPxRhMrfYrwlxvCHg%2Fsettings&v=developers). Please use
+This is reference architecture for integrating the Square Web Payments SDK with React in a scalable and performant way. This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). Uses components from [`react-square-web-payments-sdk`](https://github.com/weareseeed/react-square-web-payments-sdk). 
+
+Requires: 
+
+- a Square access token
+- a locationId and 
+- applicationId 
+
+from your [Square Developer Account](https://squareup.com/signup/us?lang_code=en-us&country_code=us&return_to=https%3A%2F%2Fdeveloper.squareup.com%2Fapps%2Fsq0idp-tlAwlpPxRhMrfYrwlxvCHg%2Fsettings&v=developers). Please use
 sandbox versions of these three values.  
 
 ## Getting Started
@@ -38,4 +45,4 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Check out the [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
