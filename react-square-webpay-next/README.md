@@ -21,6 +21,8 @@ npm run dev
 yarn dev
 ```
 
+TIP: Make sure you are running these commands from `next-square-react-afterpay/react-square-webpay-next`
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can continue editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
