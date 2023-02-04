@@ -6,7 +6,7 @@ Requires:
 - a locationId and 
 - applicationId 
 
-from your [Square Developer Account](https://squareup.com/signup/us?lang_code=en-us&country_code=us&return_to=https%3A%2F%2Fdeveloper.squareup.com%2Fapps%2Fsq0idp-tlAwlpPxRhMrfYrwlxvCHg%2Fsettings&v=developer) 
+from your [Square Developer Account](https://squareup.com/signup/us?lang_code=en-us&country_code=us&return_to=https%3A%2F%2Fdeveloper.squareup.com%2Fapps%2Fsq0idp-tlAwlpPxRhMrfYrwlxvCHg%2Fsettings&v=developer){:target="_blank"} 
 
 Please use
 sandbox versions of these three values.  
