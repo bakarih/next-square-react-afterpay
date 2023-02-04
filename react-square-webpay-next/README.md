@@ -11,6 +11,8 @@ from your [Square Developer Account](https://squareup.com/signup/us?lang_code=en
 Please use
 sandbox versions of these three values.  
 
+Click [here](https://streamyard.com/zzc66bv9ijj3) for a video walkthrough
+
 ## Getting Started
 
 First, install node packages with ```npm install```
